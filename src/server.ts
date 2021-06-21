@@ -8,7 +8,8 @@ app.get( "/test", (request,response) =>
   } 
 );
 
-app.post( "/test.post", (request,response) =>
+app.post
+( "/test.post", (request,response) =>
   {
     response.send("KASOPDASK");
   } 
